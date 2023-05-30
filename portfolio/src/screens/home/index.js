@@ -1,7 +1,6 @@
 import React from "react";
 
 const Home = () => {
-  // console.log(process.env.REACT_APP_API_URL)
   return (
     <div>
       <div className="KW_progressContainer">
