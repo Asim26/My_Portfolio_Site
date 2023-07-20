@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <div style={{}}>
       <div className="KW_progressContainer">
         <div className="KW_progressBar"></div>
       </div>
@@ -343,16 +343,19 @@ const Home = () => {
                     <div classname="col-md-7 text-center heading-section ftco-animate">
                       <span>Portfolio</span>
                       <h2>What Our Clients Says</h2>
-                      <video
+                      <div className="video-container">
+                        <video
                         controls="controls"
                         src="video/video_testimonial_fiverr.MP4"
                         type="video/mp4"
                         width="600px"
                         height="300px"
                         className="video-p"
+                        style={{width:'70%', height:'70%', marginTop:'50px'}}
                       >
                         Your browser does not support the HTML5 Video element.
                       </video>
+                      </div>
                     </div>
                   </div>
                 </div>
