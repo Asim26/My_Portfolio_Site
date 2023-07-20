@@ -28,14 +28,14 @@ const Home = () => {
                     </a>
                   </h1>
                   <ul>
-                    <li className="active">
+                    {/* <li className="active">
                       <a href={process.env.REACT_APP_API_URL}>
                         <span>
                           <small>01</small>Home
                         </span>
                       </a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a href={process.env.REACT_APP_API_URL+'about'}>
                         <span>
                           <small>02</small>Resume
@@ -48,16 +48,16 @@ const Home = () => {
                           <small>03</small>Services
                         </span>
                       </a>
-                    </li>
+                    </li> */}
                     {/* <li><a href="portfolio.html"><span><small>04</small>Portfolio</span></a></li>
                 <li><a href="blog.html"><span><small>05</small>Blog</span></a></li> */}
-                    <li>
+                    {/* <li>
                       <a href={process.env.REACT_APP_API_URL+'contact'}>
                         <span>
                           <small>06</small>Contact
                         </span>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
